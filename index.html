@@ -4,13 +4,46 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/f29635b7ff.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Caculator</title>
 </head>
 <body>
 
-	<div class="testing">
-		
+	<div class="outer-box">
+		<div class="caculator">
+			<input type="text" name="" id="result">
+			<div id="row" style="margin-top: 10px;">
+				<button id="btn" onclick="Clear()">Ac</button>
+				<button id="btn" onclick="del()"><i class="fa-solid fa-delete-left"></i></button>
+				<button id="btn" onclick="display('%')">%</button>
+				<button id="btn" onclick="display('/')">/</button>
+			</div>
+			<div id="row">
+				<button id="btn" onclick="display('7')">7</button>
+				<button id="btn" onclick="display('8')">8</button>
+				<button id="btn" onclick="display('9')">9</button>
+				<button id="btn" onclick="display('*')">*</button>
+			</div>
+			<div id="row">
+				<button id="btn" onclick="display('4')">4</button>
+				<button id="btn" onclick="display('5')">5</button>
+				<button id="btn" onclick="display('6')">6</button>
+				<button id="btn" onclick="display('-')">-</button>
+			</div>
+			<div id="row">
+				<button id="btn" onclick="display('1')">1</button>
+				<button id="btn" onclick="display('2')">2</button>
+				<button id="btn" onclick="display('3')">3</button>
+				<button id="btn" onclick="display('+')">+</button>
+			</div>
+			<div id="row">
+				<button id="btn" onclick="display('0')">0</button>
+				<button id="btn" onclick="display('.')">.</button>
+				<button id="btn" onclick="Caculate()" style="width: 40%; margin-left: 15px;">=</button>
+				
+			</div>
+		</div>
 	</div>
 
 
