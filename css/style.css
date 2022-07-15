@@ -20,6 +20,12 @@ body {
 	transform: translate(-50% , -50%);
 }
 
+#text {
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 3px 3px 5px #017B72;
+}
+
 #result {
 	width: 100%;
   	padding: 12px 20px;
