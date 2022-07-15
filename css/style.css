@@ -55,7 +55,11 @@ body {
 }
 
 #btn:hover {
-	box-shadow:inset 0px 0px 10px  #00FBD5;
+	box-shadow:inset 0px 0px 10px #00FBD5;
 	border: 0px;
+}
+
+#btn:focus {
+
 }
 
